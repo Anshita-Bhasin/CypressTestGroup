@@ -9,8 +9,9 @@ In your terminal or CI/CD pipeline, use the --spec flag with a path to the desir
 Example:
 ```
 npx cypress run --spec 'cypress/e2e/smoke/*.cy.js'
-This command runs all test cases in the smoke group.
 ```
+This command runs all test cases in the smoke group.
+
 
 2. Use npm Scripts in package.json
 To make it more convenient and reusable, you can create npm scripts in your package.json file.
@@ -31,13 +32,20 @@ npm run smoke:test
 ````
 This simplifies the command and makes it easy to remember.
 
-3. Try Different Combinations
-Experiment with different combinations based on your project structure and testing needs. Grouping helps tailor your test runs to specific scenarios, improving overall testing efficiency.
+3. Try Different Combinations:
+   
+Experiment with different combinations based on your project structure and testing needs. 
+Grouping helps alter your test runs to specific scenarios, improving overall testing efficiency.
 
-Conclusion
-Grouping Cypress test cases is a powerful practice for managing, executing, and maintaining tests. Whether running locally or in CI/CD, adopting these practices can significantly enhance your testing workflow.
+## Conclusion
 
-Feel free to explore various combinations and adapt them to your project's requirements. Happy testing!
+Grouping Cypress test cases is a powerful practice for managing, executing, and maintaining tests. 
+Whether running locally or in CI/CD, adopting these practices can significantly enhance your testing workflow.
+
+Feel free to explore various combinations and adapt them to your project's requirements. 
+
+Happy testing!
+- AB
 
 
 
